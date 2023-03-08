@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+    <div class="body">
+      <div class="body-card-inner">
+        <div class="body-card-front">
+          <img
+            src="https://programadoresdepre.com.br/wp-content/uploads/2022/06/calculadora-com-HTML-CSS-e-JavaScript.jpg"
+            alt="img-front"
+          />
+        </div>
+        <div class="body-card-back">
+          <h1>CALCULADORA SEM A FUNÇÃO EVAL</h1>
+          <section class="container">
+            <div class="visao"></div>
+            <div class="botoes">
+              <section class="num">
+                <button onclick="calc.key(1)">1</button>
+                <button onclick="calc.key(2)">2</button>
+                <button onclick="calc.key(3)">3</button>
+                <button onclick="calc.keySymbols(calc.operadores[0])">+</button>
+              </section>
+              <section class="num">
+                <button onclick="calc.key(4)">4</button>
+                <button onclick="calc.key(5)">5</button>
+                <button onclick="calc.key(6)">6</button>
+                <button onclick="calc.keySymbols(calc.operadores[1])">-</button>
+              </section>
+              <section class="num">
+                <button onclick="calc.key(7)">7</button>
+                <button onclick="calc.key(8)">8</button>
+                <button onclick="calc.key(9)">9</button>
+                <button onclick="calc.keySymbols(calc.operadores[2])">*</button>
+              </section>
+              <section class="final">
+                <button class="zero" onclick="calc.key(0)">0</button>
+                <button class="apagar" onclick="calc.clear()">C</button>
+                <button onclick="calc.resul()">=</button>
+                <button onclick="calc.keySymbols(calc.operadores[3])">/</button>
+              </section>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
