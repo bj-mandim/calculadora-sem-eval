@@ -1,5 +1,5 @@
-# calculadora-sem-eval
-Fiz uma calculadora sem eval para testar meus conhecimentos de lógica.
+# Calculadora sem Eval
+Fiz uma calculadora sem eval para testar meus conhecimentos de lógica de programação. Versões: Mobile
 
 Tecnologias usadas: HTML | CSS | JS | Vercel
 
